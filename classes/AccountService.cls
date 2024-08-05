@@ -4,7 +4,7 @@ public with sharing class AccountService {
         return [SELECT Id, Name FROM Account WHERE Type = 'Customer'];//test
     }
 
-    // Method to deactivate an account//test
+    // Method to deactivate an account//test1
     public static void deactivateAccount(Id accountId) {
         Account acc = [SELECT Id, Type FROM Account WHERE Id = :accountId LIMIT 1];
         acc.Type = 'Investor';
