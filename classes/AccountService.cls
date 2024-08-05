@@ -8,6 +8,6 @@ public with sharing class AccountService {
     public static void deactivateAccount(Id accountId) {
         Account acc = [SELECT Id, Type FROM Account WHERE Id = :accountId LIMIT 1];
         acc.Type = 'Investor';
-        update acc;
+        update acc; //test
     }
 }
