@@ -1,7 +1,7 @@
 public with sharing class AccountService {
     // Method to get active accounts
     public static List<Account> getActiveAccounts() {
-        return [SELECT Id, Name FROM Account WHERE Type = 'Customer'];
+        return [SELECT Id, Name FROM Account WHERE Type = 'Customer'];//test
     }
 
     // Method to deactivate an account
