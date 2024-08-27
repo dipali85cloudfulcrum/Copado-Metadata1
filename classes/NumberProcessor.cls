@@ -5,12 +5,12 @@ public class NumberProcessor {
             return;
         }
         
-        Integer sum = num1 + num2;
-        Integer difference = num1 - num2;
-        Integer result = sum * difference;   
+        Integer add = num1 + num2;
+        Integer sub = num1 - num2;
+        Integer result = add * sub;   
         
-        System.debug('Sum of numbers: ' + sum);
-        System.debug('Difference of numbers: ' + difference);
+        System.debug('Sum of numbers: ' + add);
+        System.debug('Difference of numbers: ' + sub);
         System.debug('Result (Sum * Difference): ' + result);
     }
 }
