@@ -8,9 +8,5 @@ public class NumberProcessor {
         Integer add = num1 + num2;
         Integer sub = num1 - num2;
         Integer result = add * sub;   
-        
-        System.debug('Sum of numbers: ' + add);
-        System.debug('Difference of numbers: ' + sub);
-        System.debug('Result (Sum * Difference): ' + result);
     }
 }
