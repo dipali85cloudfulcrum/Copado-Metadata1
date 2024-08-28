@@ -5,8 +5,8 @@ public class NumberProcessor {
             return;
         }
         
-        Integer add = num1 + num2;
-        Integer sub = num1 - num2;
-        Integer result = add * sub;
+        Integer sum = num1 + num2;
+        Integer diff = num1 - num2;
+        Integer result = sum * diff;
     }
 }
