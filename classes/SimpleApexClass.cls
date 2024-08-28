@@ -13,9 +13,9 @@ public class SimpleApexClass {
             totalRevenue += acc.AnnualRevenue;
         }        
         // Calculate the average revenue
-        Decimal avgRev = 0;
+        Decimal averageRevenue = 0;
         if (accounts.size() > 0) {
-            avgRev = totalRevenue / accounts.size();
+            averageRevenue = totalRevenue / accounts.size();
         }
     }
 }
